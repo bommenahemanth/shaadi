@@ -2,6 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Aggressive no-cache so phones always pick up new bundles -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <script type="text/javascript">
+      // Unregister any leftover service workers + nuke caches once on load
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(rs){
+          rs.forEach(function(r){ r.unregister(); });
+        });
+      }
+      if (window.caches && caches.keys) {
+        caches.keys().then(function(ks){ ks.forEach(function(k){ caches.delete(k); }); });
+      }
+    </script>
     <script type="text/javascript">
       (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -15,10 +30,10 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <title>Meet Hemanth</title>
-    <script src="./assets/astronomy.min.js?v=1779242431"></script>
-    <script src="./assets/kundali.js?v=1779242431"></script>
-    <script type="module" crossorigin src="./assets/index-J9UvopUY.js?v=1779247957"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-x1SlwPpO.css?v=1779241394">
+    <script src="./assets/astronomy.min.js?v=1779249808"></script>
+    <script src="./assets/kundali.js?v=1779249808"></script>
+    <script type="module" crossorigin src="./assets/index-J9UvopUY.js?v=1779249808"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-x1SlwPpO.css?v=1779249808">
     <style>
       /* ===== Global smooth scroll & momentum ===== */
       html { scroll-behavior: smooth; }
