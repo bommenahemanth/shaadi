@@ -17,7 +17,7 @@
     <title>Meet Hemanth</title>
     <script src="./assets/astronomy.min.js?v=1779242431"></script>
     <script src="./assets/kundali.js?v=1779242431"></script>
-    <script type="module" crossorigin src="./assets/index-J9UvopUY.js?v=1779244797"></script>
+    <script type="module" crossorigin src="./assets/index-J9UvopUY.js?v=1779245848"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-x1SlwPpO.css?v=1779241394">
     <style>
       /* ===== Animated gold shimmer border (hero card, buttons) ===== */
@@ -62,17 +62,26 @@
         pointer-events: none;
       }
 
-      /* ===== Card hover lift + glow ===== */
+      /* ===== Card hover lift + glow (desktop only) ===== */
+      @keyframes wobble {
+        0%,100% { transform: rotate(0); }
+        25%     { transform: rotate(-8deg); }
+        75%     { transform: rotate(8deg); }
+      }
       .lift-on-hover {
         transition: transform 300ms cubic-bezier(.2,.7,.3,1.2),
                     box-shadow 300ms ease,
                     border-color 300ms ease;
       }
-      .lift-on-hover:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 12px 28px -10px rgba(212,175,55,0.35),
-                    0 0 0 1px rgba(212,175,55,0.35) inset;
-        border-color: rgba(212,175,55,0.55) !important;
+      @media (hover: hover) and (pointer: fine) {
+        .lift-on-hover:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 12px 28px -10px rgba(212,175,55,0.35),
+                      0 0 0 1px rgba(212,175,55,0.35) inset;
+          border-color: rgba(212,175,55,0.55) !important;
+        }
+        .lift-on-hover:hover svg,
+        .lift-on-hover:hover img { animation: wobble 600ms ease; }
       }
 
       /* ===== Animated progress bar fill ===== */
@@ -114,14 +123,7 @@
       }
       .underline-grow:hover::after { width: 100%; left: 0; }
 
-      /* ===== Icon wobble on card hover ===== */
-      @keyframes wobble {
-        0%,100% { transform: rotate(0); }
-        25%     { transform: rotate(-8deg); }
-        75%     { transform: rotate(8deg); }
-      }
-      .lift-on-hover:hover svg,
-      .lift-on-hover:hover img { animation: wobble 600ms ease; }
+      /* Icon wobble moved into the hover-media block above */
 
       /* Respect reduced motion */
       @media (prefers-reduced-motion: reduce) {
