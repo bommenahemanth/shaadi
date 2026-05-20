@@ -1,0 +1,9 @@
+.DS_Store
+.playwright-mcp/
+*.bak
+*.bak-*
+_*.py
+_*.js
+*.docx
+.snapshot.md
+node_modules/

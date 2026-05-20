@@ -1,0 +1,1452 @@
+{
+ "New York, NY": [
+  40.7127,
+  -74.006,
+  "America/New_York"
+ ],
+ "Los Angeles, CA": [
+  34.0537,
+  -118.2428,
+  "America/Los_Angeles"
+ ],
+ "Chicago, IL": [
+  41.8756,
+  -87.6244,
+  "America/Chicago"
+ ],
+ "Houston, TX": [
+  29.7589,
+  -95.3677,
+  "America/Chicago"
+ ],
+ "Phoenix, AZ": [
+  33.4484,
+  -112.0741,
+  "America/Denver"
+ ],
+ "Philadelphia, PA": [
+  39.9527,
+  -75.1635,
+  "America/New_York"
+ ],
+ "San Antonio, TX": [
+  29.4246,
+  -98.4951,
+  "America/Chicago"
+ ],
+ "San Diego, CA": [
+  32.7174,
+  -117.1628,
+  "America/Los_Angeles"
+ ],
+ "Dallas, TX": [
+  32.7763,
+  -96.7969,
+  "America/Chicago"
+ ],
+ "San Jose, CA": [
+  37.3362,
+  -121.8906,
+  "America/Los_Angeles"
+ ],
+ "Austin, TX": [
+  30.2711,
+  -97.7437,
+  "America/Chicago"
+ ],
+ "Jacksonville, FL": [
+  30.3262,
+  -81.6579,
+  "America/New_York"
+ ],
+ "Fort Worth, TX": [
+  32.7532,
+  -97.3327,
+  "America/Chicago"
+ ],
+ "Columbus, OH": [
+  39.9623,
+  -83.0007,
+  "America/New_York"
+ ],
+ "Charlotte, NC": [
+  35.2272,
+  -80.8431,
+  "America/New_York"
+ ],
+ "San Francisco, CA": [
+  37.7879,
+  -122.4075,
+  "America/Los_Angeles"
+ ],
+ "Indianapolis, IN": [
+  39.7683,
+  -86.1584,
+  "America/Chicago"
+ ],
+ "Seattle, WA": [
+  47.6038,
+  -122.3301,
+  "America/Los_Angeles"
+ ],
+ "Denver, CO": [
+  39.7392,
+  -104.9849,
+  "America/Denver"
+ ],
+ "Washington, DC": [
+  38.8951,
+  -77.0364,
+  "America/New_York"
+ ],
+ "Boston, MA": [
+  42.3588,
+  -71.0578,
+  "America/New_York"
+ ],
+ "El Paso, TX": [
+  31.7601,
+  -106.487,
+  "America/Denver"
+ ],
+ "Nashville, TN": [
+  36.1623,
+  -86.7743,
+  "America/Chicago"
+ ],
+ "Detroit, MI": [
+  42.3316,
+  -83.0466,
+  "America/New_York"
+ ],
+ "Oklahoma City, OK": [
+  35.473,
+  -97.5171,
+  "America/Chicago"
+ ],
+ "Portland, OR": [
+  45.5202,
+  -122.6742,
+  "America/Los_Angeles"
+ ],
+ "Las Vegas, NV": [
+  36.1674,
+  -115.1484,
+  "America/Los_Angeles"
+ ],
+ "Memphis, TN": [
+  35.146,
+  -90.0518,
+  "America/Chicago"
+ ],
+ "Louisville, KY": [
+  38.2542,
+  -85.7594,
+  "America/Chicago"
+ ],
+ "Baltimore, MD": [
+  39.2909,
+  -76.6108,
+  "America/New_York"
+ ],
+ "Milwaukee, WI": [
+  43.0386,
+  -87.9091,
+  "America/Chicago"
+ ],
+ "Albuquerque, NM": [
+  35.0841,
+  -106.651,
+  "America/Denver"
+ ],
+ "Tucson, AZ": [
+  32.2229,
+  -110.9748,
+  "America/Denver"
+ ],
+ "Fresno, CA": [
+  36.7394,
+  -119.7848,
+  "America/Los_Angeles"
+ ],
+ "Mesa, AZ": [
+  33.4151,
+  -111.8315,
+  "America/Denver"
+ ],
+ "Sacramento, CA": [
+  38.5811,
+  -121.4939,
+  "America/Los_Angeles"
+ ],
+ "Atlanta, GA": [
+  33.7545,
+  -84.3898,
+  "America/New_York"
+ ],
+ "Kansas City, MO": [
+  39.1001,
+  -94.5781,
+  "America/Chicago"
+ ],
+ "Colorado Springs, CO": [
+  38.834,
+  -104.8253,
+  "America/Denver"
+ ],
+ "Miami, FL": [
+  25.7742,
+  -80.1936,
+  "America/New_York"
+ ],
+ "Raleigh, NC": [
+  35.7804,
+  -78.6391,
+  "America/New_York"
+ ],
+ "Omaha, NE": [
+  41.2587,
+  -95.9384,
+  "America/Chicago"
+ ],
+ "Long Beach, CA": [
+  33.769,
+  -118.1916,
+  "America/Los_Angeles"
+ ],
+ "Virginia Beach, VA": [
+  36.8497,
+  -75.9761,
+  "America/New_York"
+ ],
+ "Oakland, CA": [
+  37.8045,
+  -122.2714,
+  "America/Los_Angeles"
+ ],
+ "Minneapolis, MN": [
+  44.9773,
+  -93.2655,
+  "America/Chicago"
+ ],
+ "Tulsa, OK": [
+  36.1563,
+  -95.9928,
+  "America/Chicago"
+ ],
+ "Tampa, FL": [
+  27.945,
+  -82.4583,
+  "America/New_York"
+ ],
+ "Arlington, TX": [
+  32.7356,
+  -97.1071,
+  "America/Chicago"
+ ],
+ "New Orleans, LA": [
+  29.9561,
+  -90.0734,
+  "America/Chicago"
+ ],
+ "Wichita, KS": [
+  37.6922,
+  -97.3375,
+  "America/Chicago"
+ ],
+ "Cleveland, OH": [
+  41.4997,
+  -81.6937,
+  "America/New_York"
+ ],
+ "Bakersfield, CA": [
+  35.3739,
+  -119.0195,
+  "America/Los_Angeles"
+ ],
+ "Aurora, CO": [
+  39.7405,
+  -104.831,
+  "America/Denver"
+ ],
+ "Anaheim, CA": [
+  33.8348,
+  -117.9117,
+  "America/Los_Angeles"
+ ],
+ "Honolulu, HI": [
+  21.3045,
+  -157.8557,
+  "America/Los_Angeles"
+ ],
+ "Santa Ana, CA": [
+  33.7495,
+  -117.8732,
+  "America/Los_Angeles"
+ ],
+ "Riverside, CA": [
+  33.9825,
+  -117.3742,
+  "America/Los_Angeles"
+ ],
+ "Corpus Christi, TX": [
+  27.7635,
+  -97.4033,
+  "America/Chicago"
+ ],
+ "Lexington, KY": [
+  38.0464,
+  -84.497,
+  "America/New_York"
+ ],
+ "Stockton, CA": [
+  37.9577,
+  -121.2908,
+  "America/Los_Angeles"
+ ],
+ "St. Louis, MO": [
+  38.6254,
+  -90.19,
+  "America/Chicago"
+ ],
+ "Pittsburgh, PA": [
+  40.4407,
+  -80.0026,
+  "America/New_York"
+ ],
+ "Cincinnati, OH": [
+  39.1013,
+  -84.5127,
+  "America/New_York"
+ ],
+ "Anchorage, AK": [
+  61.2163,
+  -149.8949,
+  "America/Los_Angeles"
+ ],
+ "Henderson, NV": [
+  36.032,
+  -114.9823,
+  "America/Denver"
+ ],
+ "Greensboro, NC": [
+  36.0726,
+  -79.792,
+  "America/New_York"
+ ],
+ "Plano, TX": [
+  33.0137,
+  -96.6925,
+  "America/Chicago"
+ ],
+ "Newark, NJ": [
+  40.7357,
+  -74.1724,
+  "America/New_York"
+ ],
+ "Lincoln, NE": [
+  40.8089,
+  -96.7078,
+  "America/Chicago"
+ ],
+ "Orlando, FL": [
+  28.5421,
+  -81.379,
+  "America/New_York"
+ ],
+ "Irvine, CA": [
+  33.6857,
+  -117.826,
+  "America/Los_Angeles"
+ ],
+ "Toledo, OH": [
+  41.6529,
+  -83.5378,
+  "America/New_York"
+ ],
+ "Jersey City, NJ": [
+  40.7216,
+  -74.0475,
+  "America/New_York"
+ ],
+ "Chula Vista, CA": [
+  32.6401,
+  -117.0842,
+  "America/Los_Angeles"
+ ],
+ "Durham, NC": [
+  35.9967,
+  -78.9018,
+  "America/New_York"
+ ],
+ "Fort Wayne, IN": [
+  41.08,
+  -85.1386,
+  "America/Chicago"
+ ],
+ "St. Petersburg, FL": [
+  27.7712,
+  -82.634,
+  "America/New_York"
+ ],
+ "Laredo, TX": [
+  27.5079,
+  -99.507,
+  "America/Chicago"
+ ],
+ "Buffalo, NY": [
+  42.8864,
+  -78.8781,
+  "America/New_York"
+ ],
+ "Madison, WI": [
+  43.0747,
+  -89.3842,
+  "America/Chicago"
+ ],
+ "Lubbock, TX": [
+  33.5856,
+  -101.847,
+  "America/Denver"
+ ],
+ "Chandler, AZ": [
+  33.3062,
+  -111.8412,
+  "America/Denver"
+ ],
+ "Scottsdale, AZ": [
+  33.4942,
+  -111.926,
+  "America/Denver"
+ ],
+ "Reno, NV": [
+  39.5262,
+  -119.8127,
+  "America/Los_Angeles"
+ ],
+ "Glendale, AZ": [
+  33.5387,
+  -112.186,
+  "America/Denver"
+ ],
+ "Gilbert, AZ": [
+  33.3528,
+  -111.789,
+  "America/Denver"
+ ],
+ "Winston-Salem, NC": [
+  36.0998,
+  -80.2441,
+  "America/New_York"
+ ],
+ "North Las Vegas, NV": [
+  36.2005,
+  -115.1215,
+  "America/Los_Angeles"
+ ],
+ "Norfolk, VA": [
+  36.8494,
+  -76.29,
+  "America/New_York"
+ ],
+ "Chesapeake, VA": [
+  36.7168,
+  -76.2494,
+  "America/New_York"
+ ],
+ "Irving, TX": [
+  32.8295,
+  -96.9442,
+  "America/Chicago"
+ ],
+ "Hialeah, FL": [
+  25.8268,
+  -80.2814,
+  "America/New_York"
+ ],
+ "Garland, TX": [
+  32.9126,
+  -96.6389,
+  "America/Chicago"
+ ],
+ "Fremont, CA": [
+  37.5483,
+  -121.9886,
+  "America/Los_Angeles"
+ ],
+ "Boise, ID": [
+  43.6166,
+  -116.2009,
+  "America/Los_Angeles"
+ ],
+ "Richmond, VA": [
+  37.5385,
+  -77.4343,
+  "America/New_York"
+ ],
+ "Baton Rouge, LA": [
+  30.4494,
+  -91.187,
+  "America/Chicago"
+ ],
+ "Des Moines, IA": [
+  41.5869,
+  -93.6249,
+  "America/Chicago"
+ ],
+ "San Bernardino, CA": [
+  34.8253,
+  -116.0833,
+  "America/Los_Angeles"
+ ],
+ "Bentonville, AR": [
+  36.3729,
+  -94.2088,
+  "America/Chicago"
+ ],
+ "Fayetteville, AR": [
+  36.0626,
+  -94.1574,
+  "America/Chicago"
+ ],
+ "Rogers, AR": [
+  36.3349,
+  -94.1194,
+  "America/Chicago"
+ ],
+ "Springdale, AR": [
+  36.1867,
+  -94.1288,
+  "America/Chicago"
+ ],
+ "Little Rock, AR": [
+  34.7465,
+  -92.2896,
+  "America/Chicago"
+ ],
+ "Hyderabad, Telangana": [
+  17.3606,
+  78.4741,
+  "Asia/Kolkata"
+ ],
+ "Warangal, Telangana": [
+  17.9821,
+  79.5971,
+  "Asia/Kolkata"
+ ],
+ "Nizamabad, Telangana": [
+  18.6733,
+  78.0978,
+  "Asia/Kolkata"
+ ],
+ "Karimnagar, Telangana": [
+  18.4348,
+  79.1328,
+  "Asia/Kolkata"
+ ],
+ "Khammam, Telangana": [
+  17.2465,
+  80.15,
+  "Asia/Kolkata"
+ ],
+ "Ramagundam, Telangana": [
+  18.7615,
+  79.4788,
+  "Asia/Kolkata"
+ ],
+ "Mahbubnagar, Telangana": [
+  16.7435,
+  77.9923,
+  "Asia/Kolkata"
+ ],
+ "Nalgonda, Telangana": [
+  17.0504,
+  79.2669,
+  "Asia/Kolkata"
+ ],
+ "Adilabad, Telangana": [
+  19.6759,
+  78.534,
+  "Asia/Kolkata"
+ ],
+ "Suryapet, Telangana": [
+  17.08,
+  79.7925,
+  "Asia/Kolkata"
+ ],
+ "Miryalaguda, Telangana": [
+  16.871,
+  79.5617,
+  "Asia/Kolkata"
+ ],
+ "Siddipet, Telangana": [
+  18.0056,
+  78.8961,
+  "Asia/Kolkata"
+ ],
+ "Jagtial, Telangana": [
+  18.8214,
+  78.9151,
+  "Asia/Kolkata"
+ ],
+ "Mancherial, Telangana": [
+  18.9813,
+  79.5198,
+  "Asia/Kolkata"
+ ],
+ "Nirmal, Telangana": [
+  19.0915,
+  78.3966,
+  "Asia/Kolkata"
+ ],
+ "Kamareddy, Telangana": [
+  18.3166,
+  78.0539,
+  "Asia/Kolkata"
+ ],
+ "Kothagudem, Telangana": [
+  17.5513,
+  80.6145,
+  "Asia/Kolkata"
+ ],
+ "Bodhan, Telangana": [
+  18.6537,
+  77.8937,
+  "Asia/Kolkata"
+ ],
+ "Sangareddy, Telangana": [
+  17.8684,
+  77.8227,
+  "Asia/Kolkata"
+ ],
+ "Metpally, Telangana": [
+  18.1836,
+  78.9031,
+  "Asia/Kolkata"
+ ],
+ "Zahirabad, Telangana": [
+  17.6758,
+  77.6107,
+  "Asia/Kolkata"
+ ],
+ "Medak, Telangana": [
+  17.9375,
+  78.2117,
+  "Asia/Kolkata"
+ ],
+ "Vikarabad, Telangana": [
+  17.2703,
+  77.7453,
+  "Asia/Kolkata"
+ ],
+ "Wanaparthy, Telangana": [
+  16.2853,
+  77.9864,
+  "Asia/Kolkata"
+ ],
+ "Narayanpet, Telangana": [
+  16.7006,
+  77.6165,
+  "Asia/Kolkata"
+ ],
+ "Gadwal, Telangana": [
+  16.2347,
+  77.7946,
+  "Asia/Kolkata"
+ ],
+ "Mahabubabad, Telangana": [
+  17.7139,
+  80.0413,
+  "Asia/Kolkata"
+ ],
+ "Bhadrachalam, Telangana": [
+  17.6688,
+  80.894,
+  "Asia/Kolkata"
+ ],
+ "Bhongir, Telangana": [
+  17.5173,
+  78.8863,
+  "Asia/Kolkata"
+ ],
+ "Jangaon, Telangana": [
+  17.7466,
+  79.2407,
+  "Asia/Kolkata"
+ ],
+ "Peddapalli, Telangana": [
+  18.6207,
+  79.495,
+  "Asia/Kolkata"
+ ],
+ "Koratla, Telangana": [
+  19.6627,
+  78.5275,
+  "Asia/Kolkata"
+ ],
+ "Huzurabad, Telangana": [
+  18.2018,
+  79.3957,
+  "Asia/Kolkata"
+ ],
+ "Armoor, Telangana": [
+  18.7904,
+  78.2907,
+  "Asia/Kolkata"
+ ],
+ "Bellampally, Telangana": [
+  19.0753,
+  79.4766,
+  "Asia/Kolkata"
+ ],
+ "Tandur, Telangana": [
+  17.2509,
+  77.5841,
+  "Asia/Kolkata"
+ ],
+ "Shadnagar, Telangana": [
+  17.0672,
+  78.2046,
+  "Asia/Kolkata"
+ ],
+ "Medchal, Telangana": [
+  17.634,
+  78.4843,
+  "Asia/Kolkata"
+ ],
+ "Shamshabad, Telangana": [
+  17.2611,
+  78.3932,
+  "Asia/Kolkata"
+ ],
+ "Secunderabad, Telangana": [
+  17.4337,
+  78.5007,
+  "Asia/Kolkata"
+ ],
+ "Kukatpally, Telangana": [
+  17.4931,
+  78.4054,
+  "Asia/Kolkata"
+ ],
+ "Gachibowli, Telangana": [
+  17.4436,
+  78.352,
+  "Asia/Kolkata"
+ ],
+ "Madhapur, Telangana": [
+  17.4409,
+  78.3916,
+  "Asia/Kolkata"
+ ],
+ "Kondapur, Telangana": [
+  17.4588,
+  78.3731,
+  "Asia/Kolkata"
+ ],
+ "Begumpet, Telangana": [
+  17.4462,
+  78.463,
+  "Asia/Kolkata"
+ ],
+ "Banjara Hills, Telangana": [
+  17.4177,
+  78.4399,
+  "Asia/Kolkata"
+ ],
+ "Jubilee Hills, Telangana": [
+  17.4308,
+  78.4103,
+  "Asia/Kolkata"
+ ],
+ "Ameerpet, Telangana": [
+  17.4375,
+  78.4483,
+  "Asia/Kolkata"
+ ],
+ "Dilsukhnagar, Telangana": [
+  17.3684,
+  78.5234,
+  "Asia/Kolkata"
+ ],
+ "LB Nagar, Telangana": [
+  17.3502,
+  78.5511,
+  "Asia/Kolkata"
+ ],
+ "Uppal, Telangana": [
+  17.4025,
+  78.5613,
+  "Asia/Kolkata"
+ ],
+ "ECIL, Telangana": [
+  17.45,
+  78.5809,
+  "Asia/Kolkata"
+ ],
+ "Kompally, Telangana": [
+  17.5401,
+  78.4909,
+  "Asia/Kolkata"
+ ],
+ "Miyapur, Telangana": [
+  17.4982,
+  78.3568,
+  "Asia/Kolkata"
+ ],
+ "BHEL, Telangana": [
+  17.5022,
+  78.2821,
+  "Asia/Kolkata"
+ ],
+ "Lingampally, Telangana": [
+  17.4882,
+  78.3161,
+  "Asia/Kolkata"
+ ],
+ "Vijayawada, Andhra Pradesh": [
+  16.5115,
+  80.616,
+  "Asia/Kolkata"
+ ],
+ "Visakhapatnam, Andhra Pradesh": [
+  17.6936,
+  83.2921,
+  "Asia/Kolkata"
+ ],
+ "Guntur, Andhra Pradesh": [
+  16.2915,
+  80.4542,
+  "Asia/Kolkata"
+ ],
+ "Nellore, Andhra Pradesh": [
+  14.4494,
+  79.9874,
+  "Asia/Kolkata"
+ ],
+ "Kurnool, Andhra Pradesh": [
+  15.8309,
+  78.0425,
+  "Asia/Kolkata"
+ ],
+ "Kadapa, Andhra Pradesh": [
+  14.4753,
+  78.8217,
+  "Asia/Kolkata"
+ ],
+ "Rajahmundry, Andhra Pradesh": [
+  17.005,
+  81.7805,
+  "Asia/Kolkata"
+ ],
+ "Tirupati, Andhra Pradesh": [
+  13.6316,
+  79.4232,
+  "Asia/Kolkata"
+ ],
+ "Kakinada, Andhra Pradesh": [
+  16.9437,
+  82.2351,
+  "Asia/Kolkata"
+ ],
+ "Anantapur, Andhra Pradesh": [
+  14.6783,
+  77.6065,
+  "Asia/Kolkata"
+ ],
+ "Eluru, Andhra Pradesh": [
+  16.7104,
+  81.1154,
+  "Asia/Kolkata"
+ ],
+ "Ongole, Andhra Pradesh": [
+  15.5059,
+  80.0499,
+  "Asia/Kolkata"
+ ],
+ "Vizianagaram, Andhra Pradesh": [
+  18.1141,
+  83.4114,
+  "Asia/Kolkata"
+ ],
+ "Tenali, Andhra Pradesh": [
+  16.2378,
+  80.6464,
+  "Asia/Kolkata"
+ ],
+ "Proddatur, Andhra Pradesh": [
+  14.7556,
+  78.5502,
+  "Asia/Kolkata"
+ ],
+ "Nandyal, Andhra Pradesh": [
+  15.4736,
+  78.4807,
+  "Asia/Kolkata"
+ ],
+ "Chittoor, Andhra Pradesh": [
+  13.325,
+  79.6481,
+  "Asia/Kolkata"
+ ],
+ "Machilipatnam, Andhra Pradesh": [
+  16.1817,
+  81.1348,
+  "Asia/Kolkata"
+ ],
+ "Adoni, Andhra Pradesh": [
+  15.6261,
+  77.2724,
+  "Asia/Kolkata"
+ ],
+ "Srikakulam, Andhra Pradesh": [
+  18.2949,
+  83.8939,
+  "Asia/Kolkata"
+ ],
+ "Bhimavaram, Andhra Pradesh": [
+  16.5428,
+  81.5273,
+  "Asia/Kolkata"
+ ],
+ "Hindupur, Andhra Pradesh": [
+  13.8306,
+  77.4926,
+  "Asia/Kolkata"
+ ],
+ "Tadepalligudem, Andhra Pradesh": [
+  16.8102,
+  81.5266,
+  "Asia/Kolkata"
+ ],
+ "Amaravati, Andhra Pradesh": [
+  16.5097,
+  80.5185,
+  "Asia/Kolkata"
+ ],
+ "Mangalagiri, Andhra Pradesh": [
+  16.4318,
+  80.5688,
+  "Asia/Kolkata"
+ ],
+ "Narasaraopet, Andhra Pradesh": [
+  16.2389,
+  80.0473,
+  "Asia/Kolkata"
+ ],
+ "Madanapalle, Andhra Pradesh": [
+  13.5558,
+  78.5015,
+  "Asia/Kolkata"
+ ],
+ "Dharmavaram, Andhra Pradesh": [
+  14.4138,
+  77.7208,
+  "Asia/Kolkata"
+ ],
+ "Gudivada, Andhra Pradesh": [
+  16.433,
+  80.9937,
+  "Asia/Kolkata"
+ ],
+ "Kavali, Andhra Pradesh": [
+  14.9136,
+  79.9927,
+  "Asia/Kolkata"
+ ],
+ "Bangalore, Karnataka": [
+  12.9768,
+  77.5901,
+  "Asia/Kolkata"
+ ],
+ "Bengaluru, Karnataka": [
+  12.9768,
+  77.5901,
+  "Asia/Kolkata"
+ ],
+ "Mysore, Karnataka": [
+  12.3052,
+  76.6554,
+  "Asia/Kolkata"
+ ],
+ "Hubli, Karnataka": [
+  15.3518,
+  75.138,
+  "Asia/Kolkata"
+ ],
+ "Mangalore, Karnataka": [
+  12.8698,
+  74.843,
+  "Asia/Kolkata"
+ ],
+ "Belgaum, Karnataka": [
+  15.8573,
+  74.5069,
+  "Asia/Kolkata"
+ ],
+ "Gulbarga, Karnataka": [
+  17.331,
+  76.8334,
+  "Asia/Kolkata"
+ ],
+ "Davanagere, Karnataka": [
+  14.2559,
+  75.8303,
+  "Asia/Kolkata"
+ ],
+ "Bellary, Karnataka": [
+  15.143,
+  76.9173,
+  "Asia/Kolkata"
+ ],
+ "Bijapur, Karnataka": [
+  16.827,
+  75.7175,
+  "Asia/Kolkata"
+ ],
+ "Shimoga, Karnataka": [
+  14.0557,
+  75.2381,
+  "Asia/Kolkata"
+ ],
+ "Tumkur, Karnataka": [
+  13.3401,
+  77.1006,
+  "Asia/Kolkata"
+ ],
+ "Raichur, Karnataka": [
+  16.0547,
+  76.9004,
+  "Asia/Kolkata"
+ ],
+ "Bidar, Karnataka": [
+  18.0207,
+  77.2487,
+  "Asia/Kolkata"
+ ],
+ "Hospet, Karnataka": [
+  15.2665,
+  76.3872,
+  "Asia/Kolkata"
+ ],
+ "Hassan, Karnataka": [
+  13.0302,
+  76.1745,
+  "Asia/Kolkata"
+ ],
+ "Udupi, Karnataka": [
+  13.527,
+  74.8732,
+  "Asia/Kolkata"
+ ],
+ "Chitradurga, Karnataka": [
+  14.3049,
+  76.5297,
+  "Asia/Kolkata"
+ ],
+ "Mandya, Karnataka": [
+  12.6369,
+  76.7275,
+  "Asia/Kolkata"
+ ],
+ "Kolar, Karnataka": [
+  13.1805,
+  78.2669,
+  "Asia/Kolkata"
+ ],
+ "Whitefield, Bangalore": [
+  12.9964,
+  77.7614,
+  "Asia/Kolkata"
+ ],
+ "Electronic City, Bangalore": [
+  12.8488,
+  77.6483,
+  "Asia/Kolkata"
+ ],
+ "Koramangala, Bangalore": [
+  12.9357,
+  77.6241,
+  "Asia/Kolkata"
+ ],
+ "Indiranagar, Bangalore": [
+  12.9733,
+  77.6405,
+  "Asia/Kolkata"
+ ],
+ "HSR Layout, Bangalore": [
+  12.9116,
+  77.6389,
+  "Asia/Kolkata"
+ ],
+ "BTM Layout, Bangalore": [
+  12.914,
+  77.6103,
+  "Asia/Kolkata"
+ ],
+ "Marathahalli, Bangalore": [
+  12.9553,
+  77.6984,
+  "Asia/Kolkata"
+ ],
+ "Sarjapur, Bangalore": [
+  12.9116,
+  77.6389,
+  "Asia/Kolkata"
+ ],
+ "Hebbal, Bangalore": [
+  13.0382,
+  77.5919,
+  "Asia/Kolkata"
+ ],
+ "Yelahanka, Bangalore": [
+  13.1007,
+  77.5963,
+  "Asia/Kolkata"
+ ],
+ "JP Nagar, Bangalore": [
+  12.9097,
+  77.5866,
+  "Asia/Kolkata"
+ ],
+ "Banashankari, Bangalore": [
+  12.9278,
+  77.5566,
+  "Asia/Kolkata"
+ ],
+ "Chennai, Tamil Nadu": [
+  13.0837,
+  80.2702,
+  "Asia/Kolkata"
+ ],
+ "Coimbatore, Tamil Nadu": [
+  11.0018,
+  76.9628,
+  "Asia/Kolkata"
+ ],
+ "Madurai, Tamil Nadu": [
+  9.9261,
+  78.1141,
+  "Asia/Kolkata"
+ ],
+ "Tiruchirappalli, Tamil Nadu": [
+  10.8071,
+  78.6881,
+  "Asia/Kolkata"
+ ],
+ "Salem, Tamil Nadu": [
+  11.647,
+  78.2107,
+  "Asia/Kolkata"
+ ],
+ "Tirunelveli, Tamil Nadu": [
+  8.5495,
+  77.5805,
+  "Asia/Kolkata"
+ ],
+ "Tiruppur, Tamil Nadu": [
+  10.7915,
+  77.5325,
+  "Asia/Kolkata"
+ ],
+ "Vellore, Tamil Nadu": [
+  12.9022,
+  79.0611,
+  "Asia/Kolkata"
+ ],
+ "Erode, Tamil Nadu": [
+  11.4905,
+  77.3505,
+  "Asia/Kolkata"
+ ],
+ "Thoothukkudi, Tamil Nadu": [
+  8.7567,
+  78.0798,
+  "Asia/Kolkata"
+ ],
+ "Dindigul, Tamil Nadu": [
+  10.4257,
+  77.8157,
+  "Asia/Kolkata"
+ ],
+ "Thanjavur, Tamil Nadu": [
+  10.659,
+  79.2014,
+  "Asia/Kolkata"
+ ],
+ "Ranipet, Tamil Nadu": [
+  12.9186,
+  79.4082,
+  "Asia/Kolkata"
+ ],
+ "Sivakasi, Tamil Nadu": [
+  9.4628,
+  77.7891,
+  "Asia/Kolkata"
+ ],
+ "Karur, Tamil Nadu": [
+  10.8218,
+  78.3829,
+  "Asia/Kolkata"
+ ],
+ "Udhagamandalam, Tamil Nadu": [
+  11.4127,
+  76.7031,
+  "Asia/Kolkata"
+ ],
+ "Hosur, Tamil Nadu": [
+  12.7183,
+  77.8229,
+  "Asia/Kolkata"
+ ],
+ "Nagercoil, Tamil Nadu": [
+  8.184,
+  77.4315,
+  "Asia/Kolkata"
+ ],
+ "T. Nagar, Chennai": [
+  13.0344,
+  80.2302,
+  "Asia/Kolkata"
+ ],
+ "Anna Nagar, Chennai": [
+  13.0872,
+  80.2164,
+  "Asia/Kolkata"
+ ],
+ "Adyar, Chennai": [
+  13.0064,
+  80.2578,
+  "Asia/Kolkata"
+ ],
+ "Velachery, Chennai": [
+  12.9802,
+  80.2229,
+  "Asia/Kolkata"
+ ],
+ "Tambaram, Chennai": [
+  12.9318,
+  80.0997,
+  "Asia/Kolkata"
+ ],
+ "Porur, Chennai": [
+  13.032,
+  80.1583,
+  "Asia/Kolkata"
+ ],
+ "OMR, Chennai": [
+  12.8887,
+  80.2273,
+  "Asia/Kolkata"
+ ],
+ "Sholinganallur, Chennai": [
+  12.9174,
+  80.2165,
+  "Asia/Kolkata"
+ ],
+ "Mumbai, Maharashtra": [
+  19.055,
+  72.8692,
+  "Asia/Kolkata"
+ ],
+ "Pune, Maharashtra": [
+  18.5214,
+  73.8545,
+  "Asia/Kolkata"
+ ],
+ "Nagpur, Maharashtra": [
+  21.1498,
+  79.0821,
+  "Asia/Kolkata"
+ ],
+ "Thane, Maharashtra": [
+  19.3654,
+  73.3685,
+  "Asia/Kolkata"
+ ],
+ "Nashik, Maharashtra": [
+  20.0112,
+  73.7902,
+  "Asia/Kolkata"
+ ],
+ "Aurangabad, Maharashtra": [
+  19.8773,
+  75.339,
+  "Asia/Kolkata"
+ ],
+ "Solapur, Maharashtra": [
+  17.8499,
+  75.2763,
+  "Asia/Kolkata"
+ ],
+ "Kolhapur, Maharashtra": [
+  16.7028,
+  74.2405,
+  "Asia/Kolkata"
+ ],
+ "Amravati, Maharashtra": [
+  21.1545,
+  77.6443,
+  "Asia/Kolkata"
+ ],
+ "Navi Mumbai, Maharashtra": [
+  19.0308,
+  73.0199,
+  "Asia/Kolkata"
+ ],
+ "Sangli, Maharashtra": [
+  17.1727,
+  74.5868,
+  "Asia/Kolkata"
+ ],
+ "Jalgaon, Maharashtra": [
+  20.8429,
+  75.5261,
+  "Asia/Kolkata"
+ ],
+ "Akola, Maharashtra": [
+  20.7618,
+  77.1921,
+  "Asia/Kolkata"
+ ],
+ "Latur, Maharashtra": [
+  18.3553,
+  76.7549,
+  "Asia/Kolkata"
+ ],
+ "Andheri, Mumbai": [
+  19.1197,
+  72.8464,
+  "Asia/Kolkata"
+ ],
+ "Bandra, Mumbai": [
+  19.055,
+  72.8402,
+  "Asia/Kolkata"
+ ],
+ "Dadar, Mumbai": [
+  19.0174,
+  72.843,
+  "Asia/Kolkata"
+ ],
+ "Borivali, Mumbai": [
+  19.2298,
+  72.8471,
+  "Asia/Kolkata"
+ ],
+ "Malad, Mumbai": [
+  19.1867,
+  72.8486,
+  "Asia/Kolkata"
+ ],
+ "Powai, Mumbai": [
+  19.1187,
+  72.9073,
+  "Asia/Kolkata"
+ ],
+ "Goregaon, Mumbai": [
+  19.1649,
+  72.8495,
+  "Asia/Kolkata"
+ ],
+ "Kandivali, Mumbai": [
+  19.2041,
+  72.8517,
+  "Asia/Kolkata"
+ ],
+ "Kurla, Mumbai": [
+  19.0653,
+  72.8794,
+  "Asia/Kolkata"
+ ],
+ "Delhi, NCR": [
+  28.6882,
+  77.1212,
+  "Asia/Kolkata"
+ ],
+ "Noida, UP": [
+  28.5706,
+  77.3272,
+  "Asia/Kolkata"
+ ],
+ "Gurgaon, Haryana": [
+  28.4646,
+  77.0299,
+  "Asia/Kolkata"
+ ],
+ "Faridabad, Haryana": [
+  28.4031,
+  77.3106,
+  "Asia/Kolkata"
+ ],
+ "Ghaziabad, UP": [
+  28.775,
+  77.4587,
+  "Asia/Kolkata"
+ ],
+ "Greater Noida, UP": [
+  28.4671,
+  77.5138,
+  "Asia/Kolkata"
+ ],
+ "Kolkata, West Bengal": [
+  22.5726,
+  88.3639,
+  "Asia/Kolkata"
+ ],
+ "Ahmedabad, Gujarat": [
+  23.0215,
+  72.5801,
+  "Asia/Kolkata"
+ ],
+ "Surat, Gujarat": [
+  21.2095,
+  72.8317,
+  "Asia/Kolkata"
+ ],
+ "Jaipur, Rajasthan": [
+  26.9155,
+  75.819,
+  "Asia/Kolkata"
+ ],
+ "Lucknow, UP": [
+  26.8381,
+  80.9346,
+  "Asia/Kolkata"
+ ],
+ "Kanpur, UP": [
+  26.4609,
+  80.3218,
+  "Asia/Kolkata"
+ ],
+ "Chandigarh": [
+  30.7334,
+  76.7797,
+  "Asia/Kolkata"
+ ],
+ "Indore, MP": [
+  22.7204,
+  75.8682,
+  "Asia/Kolkata"
+ ],
+ "Bhopal, MP": [
+  23.2585,
+  77.402,
+  "Asia/Kolkata"
+ ],
+ "Patna, Bihar": [
+  25.6093,
+  85.1235,
+  "Asia/Kolkata"
+ ],
+ "Kochi, Kerala": [
+  9.9679,
+  76.2444,
+  "Asia/Kolkata"
+ ],
+ "Thiruvananthapuram, Kerala": [
+  8.4882,
+  76.9476,
+  "Asia/Kolkata"
+ ]
+}
