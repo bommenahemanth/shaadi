@@ -194,16 +194,16 @@
   <body>
     <div id="root"></div>
     <script>
-      // Scroll-reveal driver.
+      // Scroll-reveal driver — proper IntersectionObserver edition.
+      //
       // The React app renders inside an inner `overflow-y-scroll` container,
-      // so plain IntersectionObserver against the viewport never fires as the
-      // user scrolls. We instead walk up to find the actual scrolling
-      // ancestor for each element and run a simple visibility check on every
-      // scroll/resize tick. Adds both `.in-view` (inline CSS keyframe) and
-      // `.revealed` (bundle CSS) so either reveal rule lights up.
+      // so an IntersectionObserver with the default (viewport) root never
+      // fires as the user scrolls inside that container. The fix is to give
+      // each observer the correct scrolling ancestor as its `root`, which is
+      // exactly what the IntersectionObserver API was designed for.
       (function () {
-        var pending = []; // { el, scroller }
-        var rafQueued = false;
+        var observed = new WeakSet();
+        var observersByRoot = new Map(); // root element (or null=viewport) -> IO
 
         function findScrollRoot(el) {
           var p = el.parentElement;
@@ -214,102 +214,49 @@
             }
             p = p.parentElement;
           }
-          return null; // window
+          return null; // viewport
         }
 
-        function viewportFor(scroller) {
-          if (scroller) {
-            var r = scroller.getBoundingClientRect();
-            return { top: r.top, bottom: r.bottom };
-          }
-          return { top: 0, bottom: window.innerHeight || document.documentElement.clientHeight };
+        function getObserver(root) {
+          var key = root || 'viewport';
+          if (observersByRoot.has(key)) return observersByRoot.get(key);
+          var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+              if (!entry.isIntersecting) return;
+              entry.target.classList.add('in-view');
+              entry.target.classList.add('revealed');
+              io.unobserve(entry.target);
+            });
+          }, {
+            root: root,
+            threshold: 0.12,
+            rootMargin: '0px 0px -8% 0px'
+          });
+          observersByRoot.set(key, io);
+          return io;
         }
 
-        function reveal(el) {
-          el.classList.add('in-view');
-          el.classList.add('revealed');
-        }
-
-        function tick() {
-          rafQueued = false;
-          if (!pending.length) return;
-          var remaining = [];
-          for (var i = 0; i < pending.length; i++) {
-            var entry = pending[i];
-            var el = entry.el;
-            if (!el.isConnected) continue;
-            // Skip if not yet laid out (no size) — re-check later
-            var r = el.getBoundingClientRect();
-            if (r.width === 0 && r.height === 0) { remaining.push(entry); continue; }
-            var vp = viewportFor(entry.scroller);
-            // Reveal when the element's top crosses ~92% of the viewport
-            var triggerLine = vp.bottom - (vp.bottom - vp.top) * 0.08;
-            if (r.top < triggerLine && r.bottom > vp.top) {
-              reveal(el);
-            } else {
-              remaining.push(entry);
-            }
-          }
-          pending = remaining;
-        }
-
-        function schedule() {
-          if (rafQueued) return;
-          rafQueued = true;
-          requestAnimationFrame(tick);
-        }
-
-        var listenedScrollers = new WeakSet();
-        function attachScroller(scroller) {
-          var key = scroller || window;
-          if (listenedScrollers.has(key)) return;
-          listenedScrollers.add(key);
-          (scroller || window).addEventListener('scroll', schedule, { passive: true });
-        }
-
-        var registered = new WeakSet();
         function scan() {
           var els = document.querySelectorAll('.reveal-on-scroll');
-          var added = false;
           for (var i = 0; i < els.length; i++) {
             var el = els[i];
-            if (registered.has(el) || el.classList.contains('in-view')) continue;
-            registered.add(el);
-            var scroller = findScrollRoot(el);
-            attachScroller(scroller);
-            pending.push({ el: el, scroller: scroller });
-            added = true;
+            if (observed.has(el)) continue;
+            observed.add(el);
+            getObserver(findScrollRoot(el)).observe(el);
           }
-          if (added) schedule();
         }
-
-        // Run scans after layout settles so we don't reveal elements that
-        // briefly mount above the fold before React reflows them.
-        function deferredScan() { setTimeout(scan, 50); }
 
         if (document.readyState === 'loading') {
-          document.addEventListener('DOMContentLoaded', deferredScan);
+          document.addEventListener('DOMContentLoaded', scan);
         } else {
-          deferredScan();
+          scan();
         }
 
-        var mo = new MutationObserver(deferredScan);
-        mo.observe(document.body, { childList: true, subtree: true });
-
-        window.addEventListener('resize', schedule, { passive: true });
-        window.addEventListener('load', function () { setTimeout(scan, 100); });
-
-        // Conservative safety net: after 4s, reveal only elements that are
-        // currently within the window viewport. Prevents permanently-hidden
-        // content if scroller detection fails, without nuking progressive
-        // reveal for content below the fold.
-        setTimeout(function () {
-          var vh = window.innerHeight || document.documentElement.clientHeight;
-          document.querySelectorAll('.reveal-on-scroll:not(.in-view)').forEach(function (el) {
-            var r = el.getBoundingClientRect();
-            if (r.top < vh && r.bottom > 0) reveal(el);
-          });
-        }, 4000);
+        // React mounts content asynchronously — re-scan as nodes appear.
+        new MutationObserver(scan).observe(document.body, {
+          childList: true,
+          subtree: true
+        });
       })();
     </script>
   </body>
